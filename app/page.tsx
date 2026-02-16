@@ -112,7 +112,7 @@ export default function Home() {
         </nav>
 
         <section className="mx-auto max-w-4xl py-14 text-center sm:py-20">
-          <p className="mb-4 text-xs uppercase tracking-[0.35em] text-indigo-600">Lantern&LogicPhotography</p>
+          <p className="mb-4 text-xs uppercase tracking-[0.35em] text-indigo-600">Lantern & Logic Photography</p>
           <h1 className="serif-display text-3xl uppercase leading-tight tracking-[0.08em] text-slate-900 sm:text-5xl lg:text-6xl">
             Legacy Moments, Captured with Light, Emotion, and Intention
           </h1>
@@ -146,7 +146,7 @@ export default function Home() {
           <div>
             <h2 className="serif-display text-3xl uppercase tracking-[0.08em] text-slate-900">About Our Story</h2>
             <p className="mt-5 text-sm leading-7 text-slate-600">
-              Lantern&LogicPhotography is a travel-based two-person team serving Los Angeles and destination
+              Lantern & Logic Photography is a travel-based two-person team serving Los Angeles and destination
               celebrations throughout California and beyond. We blend documentary honesty with polished editorial
               direction. We do not operate a physical studio; every experience is personalized and delivered through
               secure digital methods.
@@ -318,7 +318,7 @@ export default function Home() {
         </section>
 
         <footer className="border-t border-slate-200 pt-6 text-center text-xs leading-6 text-slate-600">
-          <p className="uppercase tracking-[0.16em] text-slate-800">Lantern&LogicPhotography</p>
+          <p className="uppercase tracking-[0.16em] text-slate-800">Lantern & Logic Photography</p>
           <p>lanternandlogic.com</p>
           <p>323-000-0000 · ask@lanternandlogic.com</p>
           <p>Template demo site — links disabled.</p>

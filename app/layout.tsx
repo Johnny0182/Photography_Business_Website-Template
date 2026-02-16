@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Lantern&LogicPhotography',
+  title: 'Lantern & Logic Photography',
   description: 'Premium travel photography studio template',
 };
 
