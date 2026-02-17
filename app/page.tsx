@@ -1,6 +1,7 @@
 'use client';
 
 import { FormEvent, useMemo, useState } from 'react';
+import Image from 'next/image';
 
 type Tier = {
   name: string;
@@ -138,8 +139,8 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="mb-16 h-[280px] overflow-hidden rounded-3xl border border-indigo-100 bg-gradient-to-br from-indigo-300/35 via-sky-200/30 to-white shadow-glow sm:h-[420px]">
-          <div className="h-full w-full bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.85),transparent_42%),linear-gradient(130deg,rgba(79,70,229,0.18),rgba(56,189,248,0.22))]" />
+        <div className="relative mb-16 h-[280px] overflow-hidden rounded-3xl border border-indigo-100 shadow-glow sm:h-[420px]">
+          <Image src="/wedding.jpeg" alt="Wedding couple portrait" fill className="object-cover" priority />
         </div>
 
         <section className="mb-16 grid gap-8 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8 lg:grid-cols-[1.2fr_1fr]">
